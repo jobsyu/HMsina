@@ -10,4 +10,21 @@
 
 @implementation HMMessageCenterViewController
 
+
+-(void)viewDidLoad
+{
+   self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"写私信" style:UIBarButtonItemStylePlain target:self action:@selector(ComposeMsg)];
+}
+
+-(void)ComposeMsg
+{
+   
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.navigationItem.rightBarButtonItem.enabled = NO;
+}
 @end

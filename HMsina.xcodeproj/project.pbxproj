@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0133D51B3C12DB00C07700 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0133D41B3C12DB00C07700 /* UIView+Extension.m */; };
+		0F0133DB1B3C2F7000C07700 /* HMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0133DA1B3C2F7000C07700 /* HMNavigationController.m */; };
+		0F0133E11B3C383600C07700 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0133E01B3C383600C07700 /* UIBarButtonItem+Extension.m */; };
 		0F47DC551B3BEB5F0054CF6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F47DC541B3BEB5F0054CF6F /* main.m */; };
 		0F47DC581B3BEB5F0054CF6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F47DC571B3BEB5F0054CF6F /* AppDelegate.m */; };
 		0F47DC6F1B3BEB620054CF6F /* HMsinaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F47DC6E1B3BEB620054CF6F /* HMsinaTests.m */; };
@@ -29,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F0133D31B3C12DB00C07700 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		0F0133D41B3C12DB00C07700 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		0F0133D91B3C2F7000C07700 /* HMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNavigationController.h; sourceTree = "<group>"; };
+		0F0133DA1B3C2F7000C07700 /* HMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNavigationController.m; sourceTree = "<group>"; };
+		0F0133DF1B3C383600C07700 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		0F0133E01B3C383600C07700 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		0F47DC4F1B3BEB5D0054CF6F /* HMsina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMsina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F47DC531B3BEB5E0054CF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F47DC541B3BEB5F0054CF6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +108,12 @@
 				0F47DC7D1B3BEFD80054CF6F /* HMTabBarViewController.h */,
 				0F47DC7E1B3BEFD80054CF6F /* HMTabBarViewController.m */,
 				0F47DC521B3BEB5E0054CF6F /* Supporting Files */,
+				0F0133D31B3C12DB00C07700 /* UIView+Extension.h */,
+				0F0133D41B3C12DB00C07700 /* UIView+Extension.m */,
+				0F0133D91B3C2F7000C07700 /* HMNavigationController.h */,
+				0F0133DA1B3C2F7000C07700 /* HMNavigationController.m */,
+				0F0133DF1B3C383600C07700 /* UIBarButtonItem+Extension.h */,
+				0F0133E01B3C383600C07700 /* UIBarButtonItem+Extension.m */,
 			);
 			path = HMsina;
 			sourceTree = "<group>";
@@ -265,12 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0133E11B3C383600C07700 /* UIBarButtonItem+Extension.m in Sources */,
+				0F0133DB1B3C2F7000C07700 /* HMNavigationController.m in Sources */,
 				0F47DC881B3BF23B0054CF6F /* HMDiscoverViewController.m in Sources */,
 				0F47DC581B3BEB5F0054CF6F /* AppDelegate.m in Sources */,
 				0F47DC8B1B3BF2600054CF6F /* HMProfileViewController.m in Sources */,
 				0F47DC7F1B3BEFD80054CF6F /* HMTabBarViewController.m in Sources */,
 				0F47DC821B3BF1B20054CF6F /* HMHomeViewController.m in Sources */,
 				0F47DC851B3BF2040054CF6F /* HMMessageCenterViewController.m in Sources */,
+				0F0133D51B3C12DB00C07700 /* UIView+Extension.m in Sources */,
 				0F47DC551B3BEB5F0054CF6F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +469,7 @@
 				0F47DC741B3BEB620054CF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F47DC751B3BEB620054CF6F /* Build configuration list for PBXNativeTarget "HMsinaTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +478,7 @@
 				0F47DC771B3BEB620054CF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
