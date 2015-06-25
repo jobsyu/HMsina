@@ -14,6 +14,7 @@
 {
     UIBarButtonItem *item = [UIBarButtonItem appearance];
     
+    
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
     textAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
     textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:13];
@@ -31,6 +32,7 @@
     if (self.viewControllers.count > 0) {
     
         viewController.hidesBottomBarWhenPushed = YES;
+        
         viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(back) image:@"navigationbar_back" highImage:@"navigationbar_back_highlighted"];
         
         viewController.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(more) image:@"navigationbar_more" highImage:@"navigationbar_more_highlighted"];
