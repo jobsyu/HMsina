@@ -7,7 +7,19 @@
 //
 
 #import "HMDiscoverViewController.h"
+#import "HMsearchBar.h"
 
 @implementation HMDiscoverViewController
+
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    // 创建搜索框对象
+    HMsearchBar *searchBar = [HMsearchBar searchBar];
+    searchBar.width = 300;
+    searchBar.height = 30;
+    self.navigationItem.titleView = searchBar;
+}
 
 @end
